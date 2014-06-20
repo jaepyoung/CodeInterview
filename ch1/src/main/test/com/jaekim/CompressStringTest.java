@@ -54,5 +54,17 @@ public class CompressStringTest {
         Assert.assertEquals("a3",cString.compressString("aaa"));
     }
 
+    @Test
+    public void compressStringFour(){
+        CompressString cString = new CompressString();
+        Assert.assertEquals("a1b3",cString.compressString("abbb"));
+    }
+
+    @Test
+    public void compressStringFive(){
+        CompressString cString = new CompressString();
+        Assert.assertEquals("abcde",cString.compressString("abcde"));
+    }
+
 
 }
