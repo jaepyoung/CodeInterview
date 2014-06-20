@@ -1,6 +1,6 @@
 package com.jaekim;
 
-import com.jaekim.num1.PermutationCheck;
+import com.jaekim.PermutationCheck;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

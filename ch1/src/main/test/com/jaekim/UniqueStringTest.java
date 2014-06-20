@@ -1,6 +1,6 @@
 package com.jaekim;
 
-import com.jaekim.num1.UniqueString;
+import com.jaekim.UniqueString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
